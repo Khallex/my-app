@@ -39,4 +39,34 @@ export default function App() {
     </View>
   );
 }
-
+items: {
+  marginTop: 30,
+},
+writeTaskwrapper: {
+  position: 'absolute',
+    bottom: 60,
+      width: '100%',
+        flexDirection: 'row',
+          justifyContent: 'space-around',
+            alignItems: 'center',
+},
+input: {
+  paddingVertical: 15,
+    paddingHorizontal: 15,
+      backgroundColor: '#fff',
+        borderRadius: 60,
+          borderColor: '#cecece',
+            borderWidth: 1,
+              width: 250,
+},
+addwrapper: {
+  width: 60,
+    height: 60,
+      backgroundColor: '#fff',
+        borderRadius: 60,
+          justifyContent: 'center',
+            alignItems: 'center',
+              borderColor: '#cecece',
+                borderWidth: 1,
+},
+addText: { }
